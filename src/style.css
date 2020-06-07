@@ -1,0 +1,70 @@
+.app{
+background-color: whitesmoke;
+font-family: 'roboto',sans-serif;
+height: 80vh;
+margin: 0px 40px;
+}
+.add-section,.list-section{
+    width: 80%;
+    overflow: auto;
+    background-color: white;
+    border-radius: 4px;
+    margin:auto;
+    padding: 20px;
+    border-radius: 4px;
+}
+.primary-button{
+    background-color: lightskyblue;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 4px;
+}
+.second-button,.disabled{
+    background-color: gray;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 4px;
+}
+.green{
+    background-color: green;
+}
+.ui-form{
+    padding: 20px;
+    width: 80%;
+}
+.add-btn,
+.clear-link{
+    width: 50%;
+    float: left;
+    cursor: pointer;
+    color: blue;
+}
+.field{
+    padding:10px 0px;
+    border-bottom: 1px solid grey;
+}
+/*modal*/
+.modal{
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color:#00000091;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-inner{
+    min-width: 80%;
+    min-height: 300px;
+    margin: auto;
+    border-radius: 5px;
+    background-color: rgba(255,255,255, 1);
+}
