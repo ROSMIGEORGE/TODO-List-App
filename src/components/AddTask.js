@@ -1,3 +1,5 @@
+///Component to add and clear task
+
 import React, { useState } from 'react';
 import {connect} from 'react-redux';
 import TaskForm from './TaskForm';

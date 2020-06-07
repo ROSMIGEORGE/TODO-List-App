@@ -6,10 +6,12 @@ import TaskList from './TaskList';
 const App = () => {
     return (
         <div className="app">
-            <AddTask/>
+            <AddTask/>  
             <TaskList/>
         </div>
     );
 }
 
 export default App;
+
+///This is the root component of application

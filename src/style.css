@@ -20,6 +20,7 @@ margin: 0px 40px;
     cursor: pointer;
     margin: 10px;
     border-radius: 4px;
+    width: 100px;
 }
 .second-button,.disabled{
     background-color: gray;
@@ -28,13 +29,39 @@ margin: 0px 40px;
     cursor: pointer;
     margin: 10px;
     border-radius: 4px;
+    width: 100px;
 }
 .green{
     background-color: green;
 }
+.ui-error{
+    position: absolute;
+    font-size: 10px;
+    color: orangered;
+}
 .ui-form{
     padding: 20px;
+    width: 100%;
+}
+.ui-form input{
     width: 80%;
+    padding: 10px;
+    border-radius: 4px;
+    border: px solid grey;
+    margin: 10px;
+}
+tr{
+    border-bottom: 2px solid grey;
+    padding: 5px;
+}
+th{
+    padding: 0px 20px;
+}
+.undone{
+    color: hotpink;
+}
+.done{
+    color: green;
 }
 .add-btn,
 .clear-link{
@@ -45,7 +72,6 @@ margin: 0px 40px;
 }
 .field{
     padding:10px 0px;
-    border-bottom: 1px solid grey;
 }
 /*modal*/
 .modal{

@@ -1,3 +1,5 @@
+///List of task is rendered using this component
+
 import React, { useState } from 'react';
 import { connect } from 'react-redux';
 import { editTask, doneTask } from '../actions';
@@ -18,7 +20,7 @@ const TaskList = props => {
                 <tr key={key}>
                     <th>{key+1}</th>
                     <th>{task.title}</th>
-                    <th>{task.status}</th>
+                    <th className={task.status === 'done' ? 'done' : 'undone'}>{task.status}</th>
                     <th>
                         <button className={task.status === 'done' ? 'disabled' : 'primary-button'} disabled={task.status === 'done' ? true :false} onClick={() => setShowEdit(true)}>Edit</button>
                         {task.status === 'done' ? null : <button  className="primary-button green" onClick={() => props.doneTask(task)}>Done</button>}
